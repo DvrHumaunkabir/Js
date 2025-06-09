@@ -16,5 +16,4 @@ const diffarent = now - pastDate;
 console.log(pastDate);
 const mili =Math.floor(diffarent/(1000*60*60*24));
 const month =Math.floor(diffarent/(1000*60*60*24*365));
-
 console.log(month);
