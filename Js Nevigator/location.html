@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+  navigator.geolocation.getCurrentPosition((pos) => {
+     let lat = pos.coords.latitude
+      let lng = pos.coords.longitude
+      let acc = pos.coords.accuracy
+      let ac = pos.coords.altitude
+      let speed = pos.coords.speed
+
+      console.log("Latitude:",lat)
+      console.log("longitude:",lng)
+      console.log("accuracy:",acc)
+      console.log("altitude:",ac)
+      console.log("speed:",speed)
+  })
+
+</script>
+
+</body>
+</html>
